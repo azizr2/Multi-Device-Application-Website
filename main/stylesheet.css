@@ -1,0 +1,88 @@
+@font-face{
+ font-family: Neuropol;
+ src:url(neuropol.otf)
+}
+
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+    background-color: #222; 
+    background-image: url('../main/imgs/bg/6f8d9223d2111c3de0d228ed78c98ef1_8d4ec53c_2048.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    font-family:  Neuropol;
+
+    padding: 1em;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.product {
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.product h2 {
+    color: #ffc107;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.product p {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.product button {
+    background-color: #ffc107;
+    color: #222;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.product button:hover {
+    background-color: #ffdb58;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
