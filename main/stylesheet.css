@@ -26,6 +26,23 @@ header {
     padding: 1em;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
 
 section {
     display: flex;
@@ -54,7 +71,7 @@ section {
 }
 
 .product h2 {
-    color: #ffc107;
+    color: #ffffff;
     font-size: 1.5em;
     margin-bottom: 0.5em;
 }
