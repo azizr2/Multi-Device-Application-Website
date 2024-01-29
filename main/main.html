@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="script.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
@@ -17,13 +17,24 @@
         <h1>Experiments </h1>
     </header>
 
-    <nav>
-        <a href="#">Shop</a>
-        <a href="#">Cart</a>
-        <a href="#">Info</a>
-      </nav>
 
-      <section>
+    <nav>
+        <div class="dropdown">
+            <a href="#">Shop</a>
+                <a href="#">Necklaces</a>
+                <a href="#">Others</a>
+            </div>
+        </div>
+        <a href="#">Cart</a>
+        <div class="dropdown">
+            <a href="#">Info</a>
+            <div class="dropdown-content">
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section>
         <div class="product">
             <img src="../main/imgs/products/portrait 1.png" alt="Image 1" class="product-image">
             <h2>Angel Necklace</h2>
@@ -36,9 +47,15 @@
             <p>$75.00</p>
         </div>
 
-    <footer>
-        <p>&copy; 2024 Experiments</p>
-    </footer>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+
+        <footer>
+            <p>&copy; 2024 Experiments</p>
+        </footer>
 </body>
 
 </html>
